@@ -11,13 +11,12 @@ youstr=input("Enter any one of these vales:s,w,g   ")
 you=choices.get(youstr)
 print(computer)
 
-if(computer==you):
-    print("It's a Draw!")
-else:
-    if ((computer==1 and you==-1) or (computer==-1 and you==0) or(computer==0 and you==1)):
-        print("You Loose !")
-    elif((computer==1 and you==0) or (computer==-1 and you==1) or(computer==0 and you==-1)):
-        print("You won !")
-    else:
-        print("Something wrong in the input ")
-
+# if(computer==you):
+#     print("It's a Draw!")
+# else:
+#     if ((computer==1 and you==-1) or (computer==-1 and you==0) or(computer==0 and you==1)):
+#         print("You Loose !")
+#     elif((computer==1 and you==0) or (computer==-1 and you==1) or(computer==0 and you==-1)):
+#         print("You won !")
+#     else:
+#         print("Something wrong in the input ")
